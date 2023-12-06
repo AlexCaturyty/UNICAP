@@ -1,0 +1,7 @@
+@media(max-width: 590px) {
+
+.ourServiceTag{
+display: flex;
+flex-direction: column;
+}
+}
