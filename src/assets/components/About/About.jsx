@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect } from 'react'
+import { useEffect, useLayoutEffect, useState } from 'react'
 import '../../components/About/About.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -11,6 +11,11 @@ const About = () => {
         AOS.init({ duration: 2000 });
     }, []);
 
+const [active, setMode] = useState(false);
+
+const toggleMode = () => {
+    setMode(!active);
+}
 
     return (
         <div id="sobreoSin">
@@ -22,11 +27,13 @@ const About = () => {
             <div className="aboutSpace"></div>
 
             <div className='AboutCourse'>
-                <p>Sobre o curso</p>
+
+                    <p>Sobre o curso</p>
+
             </div>
 
 
-            <div className="aboutContent">
+            <div className="aboutContent" id='sobreoSin'>
                 <div className="aboutSpace"></div>
                 <div className="boxContentRigth">
                     <div className="aboutContentRight" data-aos="fade-up">
@@ -37,7 +44,7 @@ const About = () => {
                     <div data-aos="fade-up">
                         <div className="botao_objetivos">
                             <div>
-                                <a href="" className="btnAbout" target='blank'>Conheça os objetivos específicos</a>
+                                <a href="https://portal.unicap.br/w/sistemas-para-internet#presencial" className="btnAbout" target='_blank'>Conheça os objetivos específicos</a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +59,7 @@ const About = () => {
                     <div className='iconsAndText'>
                         <TbClockHour4 color='#ffffff' size={30} />
 
-                        <span>1700</span>
+                        <span>2160</span>
                     </div>
                 </div>
                 <div className='Card'>

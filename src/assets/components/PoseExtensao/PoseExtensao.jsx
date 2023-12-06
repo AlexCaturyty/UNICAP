@@ -38,7 +38,7 @@ const PosEextensao = () => {
 
                         <h2>Presencial</h2>
                         <div className="Lermais">
-                            <a href="" className="Lermais" target='blank'>Ler Mais<FaArrowRightLong color="#690013" /></a>
+                            <a href="https://portal.unicap.br/desenvolvimento-de-processos-ambientais-ppgdpa-#presencial" className="Lermais" target='_blank'>Ler Mais<FaArrowRightLong color="#690013" /></a>
                             
 
                         </div>
@@ -68,7 +68,7 @@ const PosEextensao = () => {
 
                         </div>
                         <div className="Lermais">
-                            <a href="" className="Lermais" target='blank'>Ler Mais <FaArrowRightLong color="#690013" /></a>
+                            <a href="https://portal.unicap.br/w/robotica-aplicada-a-educacao-uso-do-nao-para-o-ensino-de-linguagem-de-programacao" className="Lermais" target='_blank'>Ler Mais <FaArrowRightLong color="#690013" /></a>
 
                         </div>
                     </div>

@@ -29,6 +29,9 @@ const NavBar = () => {
         <Link to="poseExtensao" smooth={true} duration={500} onClick={toggleMode}>
           <li className="navLinksLi">Pesquisa e extensão</li>
         </Link>
+        <a href="https://portal.unicap.br/pesquisa" target='_blanck'>
+          <li className="navLinksLi">PIBIC</li>
+        </a>
       </div>
       <div id="menu" onClick={toggleMode}>
         <i>{active ? <FaTimes /> : <FaBars />}</i>

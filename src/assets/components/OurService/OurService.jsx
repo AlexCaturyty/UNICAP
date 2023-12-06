@@ -10,7 +10,7 @@ const OurService = () => {
   return (
     <div>
       <div className="ourServiceTagContainer">
-        <h2 className="CourseComplete"><a href="">
+        <h2 className="CourseComplete"><a href="https://portal.unicap.br/documents/475032/3370604/Sistemas+para+Internet+-+Matriz+76.A.2N.pdf/bb8eba59-a1ea-cb67-ada4-06a99992fb73?t=1686148835930" target="_blanck">
           Conferir estrutura, matriz curricular e investimento do curso</a></h2>
 
         <div className="tagTwoBox">

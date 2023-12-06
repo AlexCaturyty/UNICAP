@@ -1,8 +1,18 @@
+import { Link } from 'react-scroll'
 import '../../components/Introduction/Introduction.css'
 import Icon_Si from '../../images/Sist_Internet.png'
 import logoVetor from '../../images/catolica_vinho.png'
+import { useState } from 'react'
 
 const Introduction = () => {
+
+const [ active, setMode ] = useState(false);
+
+    const toggleMode = () => {
+        setMode(!active);
+    }
+
+
     return (
         <div className='Container'>
             <div className='Subcontainer'>
@@ -27,7 +37,10 @@ const Introduction = () => {
                 </div>
                 <div className="botoes">
                     <div >
-                        <a href="" className="btnHeader" target='blank'>Sobre o curso</a>
+                    <Link to="sobreoSin" smooth={true} duration={500} onClick={toggleMode}>
+
+                        <a  className="btnHeader" target='blank'>Sobre o curso</a>
+                    </Link>
                     </div>
                 </div>
             </div>
